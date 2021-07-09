@@ -8,9 +8,18 @@ const Section = styled.section`
     height: 100%;
     padding: 4rem 8rem;
 
+    @media screen and (max-width: 768px) {
+        padding: 2rem 3rem;
+    }
+
     h1 {
         margin-bottom: 5rem;
         font-size: clamp(1.5rem, 6vw, 2rem);
+        
+        @media screen and (max-width: 768px) {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
     }
 `;
 
@@ -22,6 +31,7 @@ const Container =  styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
+        grid-template-rows: 500px;
     }
 `;
 
@@ -30,6 +40,10 @@ const ColumnLeft = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     padding-right: 1rem;
+
+    @media screen and (max-width: 768px) {
+        padding-right: 0;
+    }
     
     p {
         font-size: 1.3rem;
@@ -43,6 +57,10 @@ const ColumnRight = styled.div`
     justify-content: flex-start;
     align-self: flex-end;
     padding-left: 1rem;
+
+    @media screen and (max-width: 768px) {
+        padding-left: 0;
+    }
     
     p {
         font-size: 1.3rem;

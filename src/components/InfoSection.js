@@ -8,7 +8,7 @@ const Section = styled.section`
     padding: 4rem 8rem;
 
     @media screen and (max-width: 768px) {
-        padding: 4rem 2rem;
+        padding: 2rem 0;
     }
 `;
 
@@ -20,7 +20,7 @@ const Container =  styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
-        padding: 3rem 2rem;
+        padding: 1rem 2rem;
         grid-template-rows: 400px;
     }
 `;
