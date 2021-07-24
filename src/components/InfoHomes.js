@@ -109,7 +109,7 @@ const InfoHomes = ({ heading, heading2, buttonLabel, buttonLabel2, img1, img2 })
                         <img src={img1} alt="Home" />
                     </ImageContainer>
                     <p>{heading}</p>
-                    <Button to='/homes' primary={false} big={false}>
+                    <Button to='homes' primary='false' big='false'>
                         {buttonLabel}
                         <Arrow />    
                     </Button>

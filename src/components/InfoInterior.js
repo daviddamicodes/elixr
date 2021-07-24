@@ -117,7 +117,7 @@ const InfoInterior = ({ heading, paragraphOne, paragraphTwo,
                             <h1>{heading}</h1>
                             <p>{paragraphOne}</p>
                             <p>{paragraphTwo}</p>
-                            <Button to='/homes' primary={false}>{buttonLabel}</Button>
+                            <Button to='#homes' primary='false'>{buttonLabel}</Button>
                         </ColumnLeft>
                         <ColumnRight reverse={reverse}>
                             <ImageWraapper>

@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaYoutube, FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaTwitter, FaYoutube, FaLinkedin } from 'react-icons/fa';
 import { Button } from './Button';
+
 
 const Section = styled.div`
     background-color: #000d1a;

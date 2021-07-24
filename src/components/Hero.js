@@ -167,7 +167,7 @@ const Hero = ({ slides }) => {
     }
 
     return (
-        <HeroSection>
+        <HeroSection id='homes'>
             <HeroWrapper>
                 {
                     slides.map((slide, index) => (
